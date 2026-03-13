@@ -206,16 +206,26 @@ streamworks-churn-prediction
 
 ### ▶️ Run the Project
 
-#### Clone the repository:
+1. Clone the repository
 git clone https://github.com/SusmitaMon/streamworks-churn-prediction.git
+cd streamworks-churn-prediction
 
-#### Install dependencies:
+2. Install required libraries
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
-pip install pandas numpy scikit-learn matplotlib seaborn
+3. Launch Jupyter Notebook
+jupyter notebook
 
-#### Open the notebook:
+This will open the Jupyter interface in your browser.
+
+4. Open the notebook
+
+Click the file:
 
 Churn_Prediction_StreamWorks.ipynb
+
+and run the cells sequentially to reproduce the analysis.
+
 
 -------
 
