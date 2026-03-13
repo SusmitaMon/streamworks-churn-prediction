@@ -231,7 +231,14 @@ and run the cells sequentially to reproduce the analysis.
 
 ### 👩‍💻 Author
 
-Susmita Mondal
-Aspiring Data Analyst | Power BI Developer
-
+**Susmita Mondal**  
+Data Analyst | Power BI Developer  
 Passionate about transforming raw data into insights that support business decision-making and customer analytics.
+
+LinkedIn  
+https://www.linkedin.com/in/susmita-mondal-51853999/
+
+GitHub  
+https://github.com/SusmitaMon
+
+
