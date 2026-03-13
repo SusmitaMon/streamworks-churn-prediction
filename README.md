@@ -37,7 +37,8 @@ The dataset contains behavioural and subscription data for StreamWorks users.
 
 #### Key features include:
 
-Category	Variables
+#### Category	Variables:
+
 Customer Demographics	Age, Country
 Subscription Data	Subscription Type, Monthly Fee
 User Engagement	Average Watch Hours
@@ -48,7 +49,7 @@ Referral Behaviour	Referred by Friend
 Customer Lifecycle	Tenure Days
 Engineered Features	Watch-per-Fee Ratio, Heavy Mobile User
 
-Target variable:
+#### Target variable:
 
 is_churned
 0 = Active customer
