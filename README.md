@@ -218,13 +218,14 @@ jupyter notebook
 
 This will open the Jupyter interface in your browser.
 
-4. Open the notebook
+4. ### Run the Notebook
 
-Click the file:
+View on GitHub:  
+[Churn_Prediction_StreamWorks.ipynb](https://github.com/SusmitaMon/streamworks-churn-prediction/blob/main/Churn_Prediction_StreamWorks.ipynb)
 
-Churn_Prediction_StreamWorks.ipynb
-
-and run the cells sequentially to reproduce the analysis.
+Run in Google Colab:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/SusmitaMon/streamworks-churn-prediction/blob/main/Churn_Prediction_StreamWorks.ipynb)
 
 
 -------
