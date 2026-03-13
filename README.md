@@ -35,7 +35,7 @@ This project answers three key business questions:
 
 The dataset contains behavioural and subscription data for StreamWorks users.
 
-Key features include:
+#### Key features include:
 
 Category	Variables
 Customer Demographics	Age, Country
@@ -95,7 +95,7 @@ Customers who receive promotions show significantly different churn behaviour, i
 -------
 
 ### 🤖 Machine Learning Models
-##### Logistic Regression
+#### Logistic Regression
 Metric	Score
 Accuracy	0.53
 Precision (Churn)	0.24
@@ -104,7 +104,7 @@ ROC-AUC	0.506
 
 📌 Performance close to random classification due to class imbalance.
 
-##### Random Forest
+#### Random Forest
 Metric	Score
 Accuracy	0.77
 Recall (Churn)	0.00
@@ -124,7 +124,7 @@ A Linear Regression model was built to predict user engagement.
 Metric	Value
 R²	0.93
 RMSE	5.87 hours
-##### Top Positive Drivers
+#### Top Positive Drivers
 
 Watch per fee ratio
 
@@ -134,7 +134,7 @@ Monthly subscription fee
 
 Heavy mobile usage
 
-##### Top Negative Drivers
+#### Top Negative Drivers
 
 Low watch engagement after promotions
 
@@ -145,19 +145,19 @@ Long tenure without engagement growth
 --------
 
 ### 💡 Key Insights
-1️⃣ Engagement is the strongest retention driver
+#### 1️⃣ Engagement is the strongest retention driver
 
 Users with higher watch time per subscription cost stay longer.
 
-2️⃣ Promotions influence churn behaviour
+#### 2️⃣ Promotions influence churn behaviour
 
 Promotional engagement significantly affects retention.
 
-3️⃣ Regional churn differences
+#### 3️⃣ Regional churn differences
 
 UK users show the highest churn rate.
 
-4️⃣ Low engagement after promotions signals churn risk
+#### 4️⃣ Low engagement after promotions signals churn risk
 
 Customers who receive promotions but watch less content are likely to leave.
 
@@ -205,14 +205,14 @@ streamworks-churn-prediction
 
 ### ▶️ Run the Project
 
-##### Clone the repository:
+#### Clone the repository:
 git clone https://github.com/SusmitaMon/streamworks-churn-prediction.git
 
-##### Install dependencies:
+#### Install dependencies:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
-##### Open the notebook:
+#### Open the notebook:
 
 Churn_Prediction_StreamWorks.ipynb
 
