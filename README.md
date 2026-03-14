@@ -220,7 +220,7 @@ streamworks-churn-prediction
 └── visualizations/
 
 -----
-[Dataset Files](https://github.com/SusmitaMon/streamworks-churn-prediction/tree/main/data)
+[Dataset Files][(https://github.com/SusmitaMon/streamworks-churn-prediction/tree/main/data)]
 
 ### ▶️ Run the Project
 
