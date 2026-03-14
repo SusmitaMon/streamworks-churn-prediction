@@ -70,25 +70,25 @@ The dataset contains behavioural and subscription data for StreamWorks users.
 
 ### 🔎 Exploratory Data Analysis
 #### Churn by Country
-##### |Country | Churn Rate |
-    |----------|------------|
-|UK |27.1%|
-|India |24.1%|
-France	                                 23.7%
-Germany	                                 22.5%
-Canada	                                 21.3%
-USA	                                     21.3%
+| Country | Churn Rate |
+|--------|------------|
+| UK | 27.1% |
+| India | 24.1% |
+| France | 23.7% |
+| Germany | 22.5% |
+| Canada | 21.3% |
+| USA | 21.3% |
 
 📌 Insight: UK users show the highest churn, suggesting potential market competition or pricing sensitivity.
 
 ------
 
 ### Churn by Subscription Type
-Subscription	                          Churn Rate
-Standard	                               24.6%
-Basic	                                   23.8%
-Premium	                                 21.6%
-
+| Subscription Type | Churn Rate |
+|-------------------|------------|
+| Standard | 24.6% |
+| Basic | 23.8% |
+| Premium | 21.6% |
 📌 Insight: Premium subscribers tend to churn less due to higher engagement.
 
 -----
@@ -97,32 +97,36 @@ Premium	                                 21.6%
 
 Chi-Square tests were used to identify statistically significant relationships between categorical variables and churn.
 
-Feature	                              p-value	                                           Result
-Gender	                               0.107	                                       Not Significant
-Received Promotions	                   0.002	                                          Significant
-Referred by Friend	                   0.533	                                       Not Significant
+| Feature | p-value | Result |
+|--------|--------|--------|
+| Gender | 0.107 | Not Significant |
+| Received Promotions | **0.002** | **Significant** |
+| Referred by Friend | 0.533 | Not Significant |
 
-📌 Key Finding:
+### 📌 Key Finding:
 Customers who receive promotions show significantly different churn behaviour, indicating marketing campaigns influence retention.
 
 -------
 
 ### 🤖 Machine Learning Models
 #### Logistic Regression
-    Metric	                                                           Score
-    Accuracy	                                                          0.53
-Precision (Churn)                                                       0.24
-Recall (Churn)	                                                        0.46
-ROC-AUC	                                                                0.506
+
+| Metric | Score |
+|------|------|
+| Accuracy | 0.53 |
+| Precision (Churn) | 0.24 |
+| Recall (Churn) | 0.46 |
+| ROC-AUC | 0.506 |
 
 📌 Performance close to random classification due to class imbalance.
 
-#### Random Forest
-  #### Metric	                                                                Score
-      Accuracy	                                                                 0.77
-      Recall (Churn)	                                                           0.00
-      ROC-AUC	                                                                   0.46
+ #### Random Forest
 
+| Metric | Score |
+|------|------|
+| Accuracy | 0.77 |
+| Recall (Churn) | 0.00 |
+| ROC-AUC | 0.46 |
 📌 Model predicts non-churn well but struggles to identify churn users due to imbalanced classes.
 
 Future improvement:
@@ -210,9 +214,10 @@ Jupyter Notebook
 ### 📁 Project Structure
 streamworks-churn-prediction
 │
+├── data/
 ├── Churn_Prediction_StreamWorks.ipynb
 ├── README.md
-└── visualizations
+└── visualizations/
 
 -----
 
