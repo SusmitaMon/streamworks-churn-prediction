@@ -47,18 +47,19 @@ The dataset contains behavioural and subscription data for StreamWorks users.
 
 #### Key features include:
 
-####     | Category | Variables |
+## Dataset Features
 
-| Customer Demographics | Age, | Country |
-Subscription Data	                                                      Subscription Type, Monthly Fee
-User Engagement	                                                               Average Watch Hours
-Mobile Behaviour	                                                             Mobile App Usage %
-Customer Activity	                                                             Complaints Raised
-Marketing Signals	                                                            Promotions Received
-Referral Behaviour	                                                           Referred by Friend
-Customer Lifecycle	                                                            Tenure Days
-Engineered Features	                                                  Watch-per-Fee Ratio, Heavy Mobile User
-
+| Category | Variables |
+|----------|-----------|
+| Customer Demographics | Age, Country |
+| Subscription Data | Subscription Type, Monthly Fee |
+| User Engagement | Average Watch Hours |
+| Mobile Behaviour | Mobile App Usage % |
+| Customer Activity | Complaints Raised |
+| Marketing Signals | Promotions Received |
+| Referral Behaviour | Referred by Friend |
+| Customer Lifecycle | Tenure Days |
+| Engineered Features | Watch-per-Fee Ratio, Heavy Mobile User |
 #### Target variable:
 
 is_churned
