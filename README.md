@@ -62,7 +62,7 @@ The dataset contains behavioural and subscription data for StreamWorks users.
 | Engineered Features | Watch-per-Fee Ratio, Heavy Mobile User |
 #### Target variable:
 
-is_churned
+#### is_churned 
 0 = Active customer
 1 = Churned customer
 
