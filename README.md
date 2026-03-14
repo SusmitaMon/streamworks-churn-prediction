@@ -63,7 +63,7 @@ The dataset contains behavioural and subscription data for StreamWorks users.
 #### Target variable:
 
 #### is_churned 
-0 = Active customer
+0 = Active customer <br>
 1 = Churned customer
 
 ------
