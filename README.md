@@ -47,9 +47,9 @@ The dataset contains behavioural and subscription data for StreamWorks users.
 
 #### Key features include:
 
-####     Category	                                                               Variables
+####     |Category|Variables|
 
-Customer Demographics	                                                          Age, Country
+|Customer Demographics| Age, |Country|
 Subscription Data	                                                      Subscription Type, Monthly Fee
 User Engagement	                                                               Average Watch Hours
 Mobile Behaviour	                                                             Mobile App Usage %
