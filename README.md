@@ -7,6 +7,16 @@ The goal is to help subscription businesses improve retention through data-drive
 
 ------
 
+### 📌 Key Results
+
+- UK customers show the highest churn rate (~27%)
+- Standard subscription users churn the most (~24.6%)
+- Promotions significantly influence churn behaviour (p-value = 0.002)
+- Random Forest model achieved 77% accuracy for churn classification
+- Engagement model explained 93% of watch time variance (R² = 0.93)
+
+----------
+
 ### 📊 Project Highlights
 
 ✔ Built an end-to-end churn prediction pipeline
