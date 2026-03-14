@@ -70,9 +70,10 @@ The dataset contains behavioural and subscription data for StreamWorks users.
 
 ### 🔎 Exploratory Data Analysis
 #### Churn by Country
-##### Country	                               Churn Rate
-UK	                                     27.1%
-India	                                   24.1%
+##### |Country | Churn Rate |
+    |----------|------------|
+|UK |27.1%|
+|India |24.1%|
 France	                                 23.7%
 Germany	                                 22.5%
 Canada	                                 21.3%
